@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+#game-board {
+    position: relative;
+    height: 500px;
+    background-color: #eee;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#finish-line {
+    width: 5px;
+    height: 100%;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#level-buttons {
+    margin-top: 20px;
+}
+
+#balance {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#bet-input {
+    margin-top: 20px;
+}
+
+input[type="number"], select {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.car {
+    width: 100px;
+    height: 100px;
+    background-color: #000000;
+    margin: 5px;
+    cursor: pointer;
+}

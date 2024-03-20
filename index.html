@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bet Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="game-board" style="width: 1000px;"> <!-- Definindo a largura do tabuleiro -->
+            <div id="finish-line"></div> <!-- Linha de chegada -->
+        </div>
+        <div id="level-buttons"></div>
+        <div id="balance">Balance: R$<span id="balance-value">100</span></div>
+        <div id="bet-input">
+            <input type="number" id="bet-amount" placeholder="Minimum value: 5">
+            
+            <select id="driver-select">
+                <option value="1">Driver 1</option>
+                <option value="2">Driver 2</option>
+                <option value="3">Driver 3</option>
+                <option value="4">Driver 4</option>
+                <option value="5">Driver 5</option>
+            </select>
+            <button id="place-bet">Place Bet</button>
+            <button id="restart-race">Restart Race</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
